@@ -25,7 +25,7 @@
                             </li>
                             @endforeach
                        </ul>
-                    @else 
+                    @else
                         <div class="px-3 py-3">
                             Sem resultados para "{{$search}}"
                         </div>
