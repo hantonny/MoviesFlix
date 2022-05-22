@@ -39,7 +39,7 @@
                                 </div>
                             @endif
                         @endforeach
-                        
+
                         <form action="" method="POST">
                             @csrf
                             <input type="hidden" value="{{Auth::user()->id}}" name="user">
